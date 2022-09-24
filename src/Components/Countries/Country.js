@@ -6,7 +6,7 @@ const Country = (props) => {
     const {name, flags} = props.country
     return (
         <div className='Country'>
-            <h1>{name.common}</h1>
+            <h1>{name}</h1>
             <img src={flags.png} alt="" />
         </div>
     );
